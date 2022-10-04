@@ -1,12 +1,12 @@
 
-def multiply(x, y):
-    return x * y
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-print(num1, "*", num2, "=", multiply(num1, num2))
+# def multiply(x, y):
+#     return x * y
+# num1 = float(input("Enter first number: "))
+# num2 = float(input("Enter second number: "))
+# print(num1, "*", num2, "=", multiply(num1, num2))
 
-def sub(a,b):
-    return a-b
+# def sub(a,b):
+#     return a-b
 
 
 def add():
@@ -15,18 +15,18 @@ def add():
     result = inp1 + inp2
     print("Result of ",inp1,"+",inp2,'=', result)
 
-def div():
-    a= int(input("Enter first number -> "))
-    b = int(input("Enter second number -> "))
-    divide=a/b
-    return divide
+# def div():
+#     a= int(input("Enter first number -> "))
+#     b = int(input("Enter second number -> "))
+#     divide=a/b
+#     return divide
 
 
 
 add()
 
-sub()
+# sub()
 
-multiply()
+# multiply()
 
-div()
+# div()
